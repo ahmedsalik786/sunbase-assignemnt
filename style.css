@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa; /* Light gray for a softer look */
+  color: #343a40; /* Dark gray for contrast */
+  padding: 0.8rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Lighter shadow for subtlety */
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar p {
+  margin: 0;
+}
+
+#saveForm {
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  background-color: #e2e6ea; /* Lighter blue/grey */
+  color: #343a40; /* Ensuring readability */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#saveForm:hover {
+  background-color: #dae0e5; /* Slightly darker on hover for feedback */
+  color: #343a40; /* Keeping the contrast consistent */
+}
